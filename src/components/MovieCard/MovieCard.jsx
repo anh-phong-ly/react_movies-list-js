@@ -4,6 +4,7 @@ export const MovieCard = ({ movie }) =>
 { 
     const { title, description, imgUrl, imdbUrl } = movie;
     return 
+    (
     <div className="card" data-cy="Movie">
         <div className="card-image">
         <figure className="image is-4by3">
@@ -44,4 +45,4 @@ export const MovieCard = ({ movie }) =>
         </div>
         </div>
     </div>
-};
+)};
